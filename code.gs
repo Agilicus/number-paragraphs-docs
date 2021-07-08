@@ -24,7 +24,7 @@ function numberPara(add){
     var type = element.getHeading()+'';
     
     // exclude everything but headings
-    if (!type.match(/^Normal$/)) {
+    if (!type.match(/^NORMAL$/)) {
       continue;
     }
     
